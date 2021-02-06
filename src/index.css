@@ -95,8 +95,25 @@ code {
 .card-image {
   margin: 0 auto;
   display: block;
+  height: 100%;
 }
 
+.card--desc {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1004px) {
+  .card {
+    display: flex;
+  }
+  .card--content {
+    margin-left: 2rem;
+  }
+
+  .card-image {
+    margin: auto 0;
+  }
+}
 @media (min-width: 786px) {
   .form {
     grid-template-columns: auto 1fr auto;
