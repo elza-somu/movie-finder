@@ -74,6 +74,29 @@ code {
   background-color: rgba(64, 251, 226, 0.85);
 }
 
+.card-list {
+  margin-top: 4rem;
+  color: #151515;
+}
+
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(246, 244, 244, 0.25);
+  margin-bottom: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.card-image {
+  margin: 0 auto;
+  display: block;
+}
+
 @media (min-width: 786px) {
   .form {
     grid-template-columns: auto 1fr auto;
