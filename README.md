@@ -5,6 +5,7 @@ A movie database where you are able to retrive your favorite movies
 ## Techs used
 
 React.js, JavaScript, HTML, CSS
+Moviedb API has been used to pull all the information about the searched Movies.
 
 ## Available Scripts
 
